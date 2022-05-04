@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="header__icon arreglo2" src="../img/logo.png" alt=""></a>
+        <ul class="header__ul"  id="lateral">
+            <li class="header__list"><a class="header__link" href="../index.html">home</a></li>
+            <li class="header__list"><a class="header__link" href="participantes.html">Participantes</a></li>
+            <li class="header__list"><a class="header__link" href="galeria.html">Galeria</a></li>
+            <li class="header__list"><a class="header__link" href="evento.html">Evento</a></li>
+            <li class="header__list"><a class="header__link" href="votacion.html">Votacion</a></li>
+            <li class="header__list header__cerrar"><a class="header__link" href="#">cerrar</a></li>
+        </ul>
+        <a href="#lateral" class=" header__hamb"><span id="hamb"><i class="fa-solid fa-bars"></i></span></a>
+    </header>
+<main> 
+<div class="margenes">
+    
+<form action="" method="post">
+    <div>
+        <h1 id="votacion">¿Quien ganara el torneo?</h1>
+
+        <label class="votacion__texto" for="nombre">ingresa su nombre</label>
+        <input class="votacion__input" type="text" name="" id="nombre" placeholder="nombre">
+    </div>
+    <div>
+        <label class="votacion__texto" for="apellido">ingresa su apellido</label>
+        <input class="votacion__input"  type="text" name="" id="apellido" placeholder= "apellido">
+    </div>
+    <div>
+        <label class="votacion__texto" for="email">Ingresa tu correo</label>
+        <input class="votacion__input"  type="email" name="" id="email" placeholder="correo">
+    </div>
+    
+    <div>
+    <label class="votacion__texto" for="participantes">escoge tu candidato</label>
+    <select name="participantes" id="participantes">
+        <option value="Kelly Slater">Kelly Slater</option>
+        <option value="Italo Ferreira">Italo Ferreira</option>
+        <option value="John John Florence">John John Florence</option>
+        <option value="Kanoa Igarashi">Kanoa Igarashi</option>
+    </select>
+    <div>
+        <label class="votacion__texto"  for="comentario">Comentanos por que?</label>
+        <textarea name="" id="comentario" cols="30" rows="10"></textarea>
+    </div>
+    </div>
+    <button class="boton">Enviar</button>
+</form>
+
+
+</div>
+    
+<div>
+    <ul class="marcas">
+        <li class="marcas__lista"> <img class="marcas__logos" src="../img/vans.png" alt=""> </li>
+        <li class="marcas__lista"> <img class="marcas__logos" src="../img/nike.png" alt=""> </li>
+        <li class="marcas__lista"> <img class="marcas__logos" src="../img/woodoo.png" alt=""> </li>
+        <li class="marcas__lista"> <img class="marcas__logos" src="../img/hurley.png" alt=""> </li>
+    </ul>
+</div>
+
+</main>
+<footer class="footer arreglo">
+    <h3 class="footer__h3">© 2022 World Surf League</h3>
+    
+    <ul class="footer__ul">
+        <li class="footer__li"><a class="footer__a" href="https://www.facebook.com/WSL/"><i class="fa-brands fa-facebook-square"></i></a></li>
+        <li class="footer__li"><a class="footer__a" href="https://www.instagram.com/wsl/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="footer__li"><a class="footer__a" href="https://www.youtube.com/wsl"><i class="fa-brands fa-youtube"></i></a></li>
+        <li class="footer__li"><a class="footer__a" href="https://twitter.com/wsl"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+</footer>
+</body>
+</html>
