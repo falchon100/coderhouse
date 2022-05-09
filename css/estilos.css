@@ -7,7 +7,41 @@
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: FORTQUINSY;
+    src: url("FORTQUINSY.otf");
+}
+.carrusel__img img{
+width: 600px;
+height: auto;
+object-fit: cover;
+}
 
+.carousel-inner{
+    margin-bottom: 20px;
+}
+.carousel{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel img{
+    border-radius: 25px;
+}
+.boostrap__img{
+border-radius: 15px;
+margin: 5px;
+
+}
+.boostrap__gap{
+
+}
+
+.footer__boostrap{
+height: auto;
+flex-direction: column;
+font-family: 'Mukta';
+}
 
 html{
     box-sizing: border-box;
@@ -18,6 +52,10 @@ body{
     background-color: #0d5474;
     min-height: 100vh;
 
+}
+
+.text-reset{
+    text-decoration: none;
 }
 /* header li{
     padding:60px 10px;
@@ -154,6 +192,7 @@ left: 50%;
 
 transform: translate(-50%,-50%);
 text-align: center;
+font-family: "FORTQUINSY";
 
 /*  margin-left: 1em; */
 }
@@ -208,6 +247,7 @@ background: radial-gradient(circle, rgba(0,68,98,1) 0%, rgba(42,83,122,1) 63%);
 width: 100%;
     color: white;
     text-shadow: black 5px 5px 5px;
+    font-family: FORTQUINSY;
 
 }
 
@@ -247,7 +287,6 @@ border: solid 2px black;
 
 footer ul {
     display: inline-block;
- 
 }
 
 footer ul li {
@@ -266,6 +305,7 @@ footer h3{
     display: inline-block;
     color: white;
     text-shadow: 5px 5px 5px black;
+    font-family: FORTQUINSY;
 }
 
 .footer__a{
@@ -455,7 +495,8 @@ padding-top: 2em;
     font-family:'Rock Salt', cursive;
 text-align: center;
 height: 300px;
-font-size: 3em;
+
+
 color: white;
 text-shadow: 5px 5px 5px black;
 margin-top: auto;
@@ -468,7 +509,9 @@ background-position: center;
 border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
-padding-top: 2em;
+padding-top: 1em;
+font-family: FORTQUINSY;
+font-size: 5em;
 
 }
 
@@ -480,7 +523,7 @@ padding-top: 2em;
     font-family:'Rock Salt', cursive;
 text-align: center;
 height: 300px;
-font-size: 3em;
+font-size: 5em;
 color: white;
 text-shadow: 5px 5px 5px black;
 margin-top: auto;
@@ -493,8 +536,8 @@ background-position: center;
 border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
-padding-top: 2em;
-
+padding-top: 1em;
+font-family: FORTQUINSY;
 }
 
 #italo__titulo:hover{
@@ -505,7 +548,7 @@ padding-top: 2em;
     font-family:'Rock Salt', cursive;
 text-align: center;
 height: 300px;
-font-size: 3em;
+font-size: 5em;
 color: white;
 text-shadow: 5px 5px 5px black;
 margin-top: auto;
@@ -518,8 +561,8 @@ background-position: 60%;
 border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
-padding-top: 2em;
-
+padding-top: 1em;
+font-family: FORTQUINSY;
 }
 
 #john__titulo:hover{
@@ -530,7 +573,7 @@ padding-top: 2em;
     font-family:'Rock Salt', cursive;
 text-align: center;
 height: 300px;
-font-size: 3em;
+font-size: 5em;
 color: white;
 text-shadow: 5px 5px 5px black;
 margin-top: auto;
@@ -543,7 +586,8 @@ background-position-y: 60%;
 border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
-padding-top: 2em;
+padding-top: 1em;
+font-family: FORTQUINSY;
 
 }
 
@@ -682,7 +726,7 @@ display: none;
 }   
 
 .sec__texto{
-    font-size: 120px;
+    font-size: 110px;
 }
 
 .banderas{
@@ -814,8 +858,9 @@ padding-top: 1em;
 }
 
 h1.margenes.participantes__titulo_principal{
-font-size: 4rem;
-padding-top: 1em;
+font-size: 5rem;
+padding-top: 0.5em;
+font-family: FORTQUINSY;
 
 }
 .participantes__texto{
@@ -842,7 +887,7 @@ height: auto;
 
 @media screen and (max-width:400px) {  
 .sec__texto{
-    font-size: 60px;
+    font-size: 55px;
 }
 
 .sec__fondo{
