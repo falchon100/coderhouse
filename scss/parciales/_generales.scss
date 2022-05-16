@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  *::before, *::after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: FORTQUINSY;
+    src: url("FORTQUINSY.otf");
+}
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Grape Nuts';
+    background-color: #0d5474;
+    min-height: 100vh;
+}
+h1.margenes{
+    /*     font-size: 200px; */
+    font-size: 6rem;
+        color: white;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        border-radius: 20px;
+        border: solid white 4px;
+        background-image: url(../img/participantes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .margenes{
+        margin-top: 120px;
+    }

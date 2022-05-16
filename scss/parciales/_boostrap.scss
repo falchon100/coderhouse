@@ -1,0 +1,36 @@
+
+.carrusel__img img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel img {
+    border-radius: 25px;
+}
+
+.boostrap__img {
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.footer__boostrap {
+    height: auto;
+    flex-direction: column;
+    font-family: 'Mukta';
+}
+
+
+
+.text-reset {
+    text-decoration: none;
+}

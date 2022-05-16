@@ -1,0 +1,185 @@
+
+@media screen and (max-width:1023px) {
+
+    .header__cerrar{
+    display: none;
+    }   
+    
+    .sec__texto{
+        font-size: 110px;
+    }
+    
+    .banderas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banderas__div{
+        width: 50%;
+    }
+    
+    .participantes__img2{
+        width: 100%;
+    }
+    
+    .galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    }
+    
+    }
+    /* VISTA MOBILEEEEEEEEE */
+    /* VISTA MOBILEEEEEEEEE */
+    /* VISTA MOBILEEEEEEEEE */
+    /* VISTA MOBILEEEEEEEEE */
+    /* VISTA MOBILEEEEEEEEE */
+    
+    @media screen and (max-width:600px) {  
+    
+        #kelly__titulo{
+            filter: grayscale(0);
+        }
+        
+        #italo__titulo{
+            filter: grayscale(0);
+        }
+        
+        #john__titulo{
+            filter: grayscale(0);
+        }
+        
+        #kanoa__titulo{
+            filter: grayscale(0);
+        }
+    .sec__texto{
+        font-size: 70px;
+    }
+    
+    .banderas{
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+    }
+    
+    .marcas__lista{
+    
+        height: 50px;
+    }
+    
+    #hamb{
+        display: inline-block;
+        }
+        .header__icon{
+            margin-left: 2em;
+            }
+            
+            .header__hamb{
+            display: inline-block;
+                position: absolute;
+                padding: 5px;
+                margin-right: 1em;
+                color: white;
+                right: 2em;
+                font-size: 70px;
+                top: 25%;
+                left: 75%;
+            
+            }
+    
+    
+            #lateral{
+                background-color: black;
+                width: 90%;
+                height: 100vh;
+                position: fixed;
+                top: 0;
+                left: -100%;
+                display: flex;
+                flex-direction: column;
+                transition: left 1s;
+                justify-content: space-evenly
+            
+            }
+            
+            #lateral:target{
+                left: 0;
+            }
+            
+            .header__cerrar{
+                display: block;
+                background-color: #0d5474;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 40px;
+            }
+            
+    .footer{
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .participantes__texto{
+    font-size: 2.5em;
+    padding-top: 1em;
+    }
+    
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(6,1fr);
+        }
+    
+    
+    }
+    
+    h1.margenes.participantes__titulo_principal{
+    font-size: 5rem;
+    padding-top: 0.5em;
+    font-family: FORTQUINSY;
+    
+    }
+    .participantes__texto{
+    font-size: 2em;
+    }
+    
+    
+    .participantes__titulo{
+    font-size: 4em;
+    }
+    
+    .evento__titulo{
+    font-size: 6em;
+    }
+    
+    h1#votacion{
+    font-size: 65px;
+    }
+    
+    .evento__parrafo{ 
+    height: auto;
+    }
+    
+    
+    @media screen and (max-width:400px) {  
+    .sec__texto{
+        font-size: 55px;
+    }
+    
+    .sec__fondo{
+        height: 400px;
+    }
+    
+    .galeria{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8,1fr);
+        }
+    
+    
+    
+    }
