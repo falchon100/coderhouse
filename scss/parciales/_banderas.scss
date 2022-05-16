@@ -15,9 +15,8 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position:bottom ;
 min-height: 200px;
-background: rgb(0,68,98);
-background: radial-gradient(circle, rgba(0,68,98,1) 0%, rgba(42,83,122,1) 63%);
-
+background: rgb(14,68,93);
+background: linear-gradient(180deg, rgba(14,68,93,1) 0%, rgba(13,84,116,1) 8%, rgba(13,84,116,1) 88%, rgba(14,68,93,1) 100%);
 }
 .banderas__div{
     width: 250px;

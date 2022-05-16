@@ -25,12 +25,10 @@ body {
 }
 
 h1.margenes {
-  /*     font-size: 200px; */
   font-size: 6rem;
   color: white;
   text-shadow: 5px 5px 5px black;
   text-align: center;
-  border-radius: 20px;
   border: solid white 4px;
   background-image: url(../img/participantes.jpg);
   background-position: center;
@@ -51,7 +49,8 @@ header {
   height: 120px;
   font-family: 'Grape Nuts';
   font-weight: bold;
-  background-color: #0d5474;
+  background: #0e445d;
+  background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
   position: fixed;
   z-index: 99;
   top: 0;
@@ -218,8 +217,8 @@ header a {
   background-repeat: no-repeat;
   background-position: bottom;
   min-height: 200px;
-  background: #004462;
-  background: radial-gradient(circle, #004462 0%, #2a537a 63%);
+  background: #0e445d;
+  background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
 }
 
 .banderas__div {
@@ -408,6 +407,7 @@ ul.marcas {
   height: 200px;
   text-align: center;
   background-position: center;
+  margin-bottom: 0;
 }
 
 .participantes__titulo {
@@ -454,7 +454,7 @@ ul.marcas {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   filter: grayscale(1);
   text-align: center;
   padding-top: 1em;
@@ -479,7 +479,6 @@ ul.marcas {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 50px;
   filter: grayscale(1);
   text-align: center;
   padding-top: 1em;
@@ -503,7 +502,6 @@ ul.marcas {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 60%;
-  border-radius: 50px;
   filter: grayscale(1);
   text-align: center;
   padding-top: 1em;
@@ -527,7 +525,6 @@ ul.marcas {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 60%;
-  border-radius: 50px;
   filter: grayscale(1);
   text-align: center;
   padding-top: 1em;
@@ -687,7 +684,7 @@ ul.marcas {
     color: white;
     right: 2em;
     font-size: 70px;
-    top: 25%;
+    top: 10%;
     left: 75%;
   }
   #lateral {
@@ -757,7 +754,7 @@ h1#votacion {
     font-size: 55px;
   }
   .sec__fondo {
-    height: 400px;
+    height: 90vh;
   }
   .galeria {
     display: grid;

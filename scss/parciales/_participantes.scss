@@ -24,6 +24,7 @@ font-size: 2rem;
 height: 200px;
 text-align: center;
 background-position: center;
+margin-bottom: 0;
 }
 
 .participantes__titulo{
@@ -63,8 +64,6 @@ filter: grayscale(0);
 font-family:'Rock Salt', cursive;
 text-align: center;
 height: 300px;
-
-
 color: white;
 text-shadow: 5px 5px 5px black;
 margin-top: auto;
@@ -73,7 +72,7 @@ background-image: url(../img/kelly_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-border-radius: 50px;
+/* border-radius: 50px; */
 filter: grayscale(1);
 text-align:center;
 padding-top: 1em;
@@ -99,7 +98,6 @@ background-image: url(../img/italo_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
 padding-top: 1em;
@@ -123,7 +121,7 @@ background-image: url(../img/john_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 60%;
-border-radius: 50px;
+
 filter: grayscale(1);
 text-align:center;
 padding-top: 1em;
@@ -147,7 +145,6 @@ background-image: url(../img/kanoa_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-y: 60%;
-border-radius: 50px;
 filter: grayscale(1);
 text-align:center;
 padding-top: 1em;

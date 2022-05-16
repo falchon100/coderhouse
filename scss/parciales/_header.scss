@@ -9,7 +9,8 @@ header{
     height: 120px; 
     font-family: 'Grape Nuts' ;
     font-weight:bold;
-    background-color:#0d5474;
+    background: rgb(14,68,93);
+    background: linear-gradient(180deg, rgba(14,68,93,1) 0%, rgba(13,84,116,1) 8%, rgba(13,84,116,1) 88%, rgba(14,68,93,1) 100%);
     position:fixed;
     z-index: 99;
     top: 0;
