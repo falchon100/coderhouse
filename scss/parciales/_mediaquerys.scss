@@ -1,6 +1,10 @@
 
 @media screen and (max-width:1023px) {
 
+    .participantes__img2:hover{
+        -webkit-transform:none;
+        overflow:none;
+    }
     .header__cerrar{
     display: none;
     }   

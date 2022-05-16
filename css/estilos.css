@@ -200,10 +200,6 @@ header a {
   height: 100%;
 }
 
-.banderas img {
-  width: 200px;
-}
-
 .banderas {
   display: flex;
   flex-wrap: nowrap;
@@ -246,6 +242,10 @@ header a {
   width: 100%;
   background-color: #f5f5f5;
   border: 4px solid black;
+}
+
+.banderas img {
+  width: 200px;
 }
 
 footer {
@@ -620,6 +620,10 @@ ul.marcas {
 }
 
 @media screen and (max-width: 1023px) {
+  .participantes__img2:hover {
+    -webkit-transform: none;
+    overflow: none;
+  }
   .header__cerrar {
     display: none;
   }
