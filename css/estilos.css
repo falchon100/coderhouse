@@ -203,10 +203,8 @@ header a {
 .banderas {
   display: flex;
   flex-wrap: nowrap;
-  /* margin: 10px; */
   align-items: center;
   justify-content: space-between;
-  /* background-image: url("../img/surfing-926822_960_720.jpg"); */
   background-color: #0d5474;
   background-position: center;
   background-size: cover;
@@ -219,7 +217,6 @@ header a {
 
 .banderas__div {
   width: 250px;
-  /*     background-color: black; */
   text-align: center;
 }
 
