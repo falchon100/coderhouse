@@ -652,6 +652,7 @@ ul.marcas {
     filter: grayscale(0);
   }
   #john__titulo {
+    padding-top: 0;
     filter: grayscale(0);
   }
   #kanoa__titulo {
@@ -730,7 +731,7 @@ ul.marcas {
 }
 
 h1.margenes.participantes__titulo_principal {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-top: 0.5em;
   font-family: FORTQUINSY;
 }
