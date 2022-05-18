@@ -20,7 +20,7 @@ html {
 
 body {
   font-family: 'Grape Nuts';
-  background-color: #0d5474;
+  background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
   min-height: 100vh;
 }
 
@@ -71,7 +71,7 @@ header a {
 }
 
 .header__icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .header__list {
@@ -119,7 +119,7 @@ header a {
 }
 
 .boton {
-  background-color: #0d5474;
+  background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 5px 5px 5px black;
@@ -201,7 +201,6 @@ header a {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  background-color: #0d5474;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +241,6 @@ header a {
 }
 
 footer {
-  background-color: #0d5474;
   padding: 30px;
   height: 150px;
   display: inline-block;
@@ -261,7 +259,7 @@ footer ul li {
   width: 30px;
   display: inline-block;
   margin: 10px;
-  transition: transform 0.2s;
+  transition: scale(1.2);
 }
 
 footer ul li:hover {
@@ -565,8 +563,8 @@ ul.marcas {
 }
 
 .participantes__img2:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   overflow: hidden;
 }
 
@@ -696,7 +694,7 @@ ul.marcas {
     left: 75%;
   }
   #lateral {
-    background-color: black;
+    background: black;
     width: 90%;
     height: 100vh;
     position: fixed;
@@ -712,7 +710,7 @@ ul.marcas {
   }
   .header__cerrar {
     display: block;
-    background-color: #0d5474;
+    background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
   }

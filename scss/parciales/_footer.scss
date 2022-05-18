@@ -1,5 +1,4 @@
 footer{
-    background-color: #0d5474 ;
     padding: 30px;
     height: 150px;
     display: inline-block;
@@ -18,11 +17,11 @@ footer{
         width: 30px;
         display: inline-block;
         margin: 10px;
-        transition: transform 0.2s;
+        transition: $zoom;
     }
 
     ul li:hover{
-        transform: scale(1.2);    
+        transform: $zoom;    
     }
     h3{
         display: inline-block;

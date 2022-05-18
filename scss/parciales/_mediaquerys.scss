@@ -104,7 +104,7 @@
     
     
             #lateral{
-                background-color: black;
+                background: black;
                 width: 90%;
                 height: 100vh;
                 position: fixed;
@@ -123,7 +123,7 @@
             
             .header__cerrar{
                 display: block;
-                background-color: #0d5474;
+                background:$color-principal;
                 font-family: 'Courier New', Courier, monospace;
                 font-size: 40px;
             }

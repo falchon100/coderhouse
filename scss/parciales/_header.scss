@@ -8,7 +8,7 @@ header{
     font-family: 'Grape Nuts' ;
     font-weight:bold;
     background: rgb(14,68,93);
-    background: linear-gradient(180deg, rgba(14,68,93,1) 0%, rgba(13,84,116,1) 8%, rgba(13,84,116,1) 88%, rgba(14,68,93,1) 100%);
+    background:$color-principal;
     position:fixed;
     z-index: 99;
     top: 0;
@@ -31,7 +31,7 @@ header{
     }
 
     &__icon:hover{
-        transform: scale(1.1);
+        transform: $zoom;
     }
 
     &__list{
@@ -43,7 +43,7 @@ header{
     transition: transform 0.2s;
     }
     &__list:hover{
-        transform: scale(1.2);
+        transform: $zoom;
         }
         
         &__link{
@@ -78,7 +78,7 @@ header{
 }
 
 .boton{
-background-color:#0d5474;
+background:$color-principal;
 cursor: pointer;
 border-radius:8px;
 box-shadow: 5px 5px 5px black ;

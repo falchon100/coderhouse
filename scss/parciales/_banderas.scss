@@ -3,14 +3,13 @@
 flex-wrap: nowrap;
 align-items: center;
 justify-content:space-between;
-background-color: #0d5474;
 background-position:center;
 background-size: cover;
 background-repeat: no-repeat;
 background-position:bottom ;
 min-height: 200px;
 background: rgb(14,68,93);
-background: linear-gradient(180deg, rgba(14,68,93,1) 0%, rgba(13,84,116,1) 8%, rgba(13,84,116,1) 88%, rgba(14,68,93,1) 100%);
+background:$color-principal;
 
 &__div{
     width: 250px;
