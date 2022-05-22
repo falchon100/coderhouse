@@ -10,6 +10,7 @@ background-position:bottom ;
 min-height: 200px;
 background: rgb(14,68,93);
 background:$color-principal;
+@include generarflex(row,space-between,center);
 
 &__div{
     width: 250px;

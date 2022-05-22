@@ -2,3 +2,36 @@ $zoom:scale(1.2);
 
 
 $color-principal: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
+
+
+
+/* aca declaro el mapa y luego lo utilizo con el map-get */
+
+
+$estilos: (
+font-family: FORTQUINSY,
+height: 300px,
+text-shadow: 5px 5px 5px black,
+color: white,
+border: solid 2px grey,
+font-size: 5em,
+);
+
+
+
+/* aca declaro el extend para luego utilizarlo */
+.repite{font-family:'Rock Salt', cursive;
+text-align: center;
+margin-top: auto;
+filter: grayscale(1);
+padding-top: 1em; 
+}
+
+
+@mixin generarflex($direccion,$eje-principal,$eje-secundario) {
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
+

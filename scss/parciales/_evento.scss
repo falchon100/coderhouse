@@ -1,9 +1,7 @@
 
 .evento{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: white;
+    @include generarflex(column,center,center);
 
     &__titulo{
         font-size: 140px;

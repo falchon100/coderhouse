@@ -61,47 +61,38 @@ filter: grayscale(0);
 
 
 #kelly__titulo{
-font-family:'Rock Salt', cursive;
-text-align: center;
-height: 300px;
-color: white;
-text-shadow: 5px 5px 5px black;
-margin-top: auto;
-border: solid 2px grey;
 background-image: url(../img/kelly_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-/* border-radius: 50px; */
-filter: grayscale(1);
-text-align:center;
-padding-top: 1em;
 font-family: FORTQUINSY;
-font-size: 5em;
-
+font-size: map-get($estilos,font-size);
+height: map-get($estilos,height);
+text-shadow: map-get($estilos,text-shadow);
+color: map-get($estilos,color);
+border: map-get($estilos,border);
+font-size: map-get($estilos, font-size);
+@extend .repite;
 }
+
+
 
 #kelly__titulo:hover{
 filter: grayscale(0);   
 }
 
 #italo__titulo{
-font-family:'Rock Salt', cursive;
-text-align: center;
-height: 300px;
-font-size: 5em;
-color: white;
-text-shadow: 5px 5px 5px black;
-margin-top: auto;
-border: solid 2px grey;
 background-image: url(../img/italo_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-filter: grayscale(1);
-text-align:center;
-padding-top: 1em;
 font-family: FORTQUINSY;
+height: map-get($estilos,height);
+text-shadow: map-get($estilos,text-shadow);
+color: map-get($estilos,color);
+border: map-get($estilos,border);
+font-size: map-get($estilos, font-size);
+@extend .repite;
 }
 
 #italo__titulo:hover{
@@ -109,23 +100,18 @@ filter: grayscale(0);
 }
 
 #john__titulo{
-font-family:'Rock Salt', cursive;
-text-align: center;
-height: 300px;
-font-size: 5em;
-color: white;
-text-shadow: 5px 5px 5px black;
-margin-top: auto;
-border: solid 2px grey;
 background-image: url(../img/john_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: 60%;
-
-filter: grayscale(1);
-text-align:center;
-padding-top: 1em;
 font-family: FORTQUINSY;
+height: map-get($estilos,height);
+text-shadow: map-get($estilos,text-shadow);
+color: map-get($estilos,color);
+border: map-get($estilos,border);
+font-size: map-get($estilos, font-size);
+@extend .repite;
+
 }
 
 #john__titulo:hover{
@@ -133,23 +119,17 @@ filter: grayscale(0);
 }
 
 #kanoa__titulo{
-font-family:'Rock Salt', cursive;
-text-align: center;
-height: 300px;
-font-size: 5em;
-color: white;
-text-shadow: 5px 5px 5px black;
-margin-top: auto;
-border: solid 2px grey;
 background-image: url(../img/kanoa_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
 background-position-y: 60%;
-filter: grayscale(1);
-text-align:center;
-padding-top: 1em;
 font-family: FORTQUINSY;
-
+height: map-get($estilos,height);
+text-shadow: map-get($estilos,text-shadow);
+color: map-get($estilos,color);
+border: map-get($estilos,border);
+font-size: map-get($estilos, font-size);
+@extend .repite;
 }
 
 #kanoa__titulo:hover{
