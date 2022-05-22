@@ -1,0 +1,18 @@
+Realice las modificaciones para el mejorar el Seo:
+
+-Achique las imagenes con la pagina https://tinypng.com/
+-Agregue descripciones
+-Agregue keywords
+-Agregue el archivo sitemap.xml 
+-Agregue los titulos a todas las paginas
+Corrobore que los encabezados esten bien ordenados
+
+
+Sass:
+
+Agregue un Extend (.repite)  y lo utilice el parcial _participantes 
+
+Utilice Map y lo utilice tambien en _participantes
+
+y utilice mixing para generar flex y lo utilice en el header en .banderas en .evento
+
