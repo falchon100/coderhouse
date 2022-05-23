@@ -397,6 +397,7 @@ ul.marcas {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 1em;
+  padding: 10px;
 }
 
 .participantes__titulo1 {
@@ -546,9 +547,8 @@ ul.marcas {
 .participantes__img2 {
   padding: 10px;
   width: 100%;
-  height: 100%;
+  height: 350px;
   object-fit: cover;
-  border-radius: 50px;
   transition: all 0.5s;
 }
 
