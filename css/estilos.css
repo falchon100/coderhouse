@@ -759,4 +759,52 @@ h1#votacion {
     grid-template-rows: repeat(8, 1fr);
   }
 }
+
+.participantes2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.participantes2__contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.participantes2__h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  padding-top: 20px;
+  margin: 20px auto;
+  font-family: FORTQUINSY;
+  text-shadow: 10px 10px 10px black;
+}
+
+.participantes2__h2 {
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'FontAwesome';
+}
+
+.participantes2__p {
+  color: white;
+  text-align: justify;
+  margin: 20px 10px;
+  font-family: 'FontAwesome';
+}
+
+.participantes__img {
+  border-radius: 20px;
+  padding: 5px;
+  filter: grayscale(1);
+}
+
+.participantes2 div {
+  padding: 10px;
+}
+
+.participantes__img:hover {
+  filter: grayscale(0);
+}
 /*# sourceMappingURL=estilos.css.map */
