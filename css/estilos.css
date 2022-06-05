@@ -180,6 +180,10 @@ header a {
 }
 
 .sec__fondo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   position: relative;
   margin-top: 120px;
   height: 800px;
@@ -190,20 +194,29 @@ header a {
 }
 
 .sec__texto {
-  position: absolute;
+  /*         position: absolute; */
   color: white;
   font-size: 150px;
   min-height: 100px;
   z-index: 10;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /*         top: 40%;
+        left: 50%; */
+  /*         transform: translate(-50%,-50%); */
   text-align: center;
   font-family: "FORTQUINSY";
 }
 
 .sec__img {
   height: 100%;
+}
+
+.sec__texto2 {
+  color: white;
+  font-size: 150px;
+  min-height: 100px;
+  z-index: 10;
+  text-align: center;
+  font-family: "FORTQUINSY";
 }
 
 .banderas {
@@ -393,6 +406,11 @@ ul.marcas {
 
 li.marcas__lista {
   padding: 5px;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .participantes {
@@ -685,7 +703,7 @@ li.marcas__lista {
   .header__hamb {
     display: inline-block;
     position: absolute;
-    padding: 5px;
+    /*                 padding: 5px; */
     margin-right: 1em;
     color: white;
     right: 2em;
@@ -695,7 +713,7 @@ li.marcas__lista {
   }
   #lateral {
     background: black;
-    width: 90%;
+    width: 100%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -704,6 +722,9 @@ li.marcas__lista {
     flex-direction: column;
     transition: left 1s;
     justify-content: space-evenly;
+    z-index: 2;
+    align-items: center;
+    background-image: url(/img/pepe2.jpg);
   }
   #lateral:target {
     left: 0;
@@ -712,7 +733,11 @@ li.marcas__lista {
     display: block;
     background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+  }
+  .header__ul {
+    margin: 0;
   }
   .footer {
     display: flex;
