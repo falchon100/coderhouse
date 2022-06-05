@@ -254,6 +254,10 @@ header a {
   width: 200px;
 }
 
+.mx-auto {
+  text-align: center;
+}
+
 footer {
   padding: 30px;
   height: 150px;
@@ -657,7 +661,7 @@ ul.marcas {
     flex-direction: column;
   }
   .banderas__div {
-    width: none;
+    width: 100%;
   }
   .marcas {
     display: flex;
@@ -811,5 +815,17 @@ h1#votacion {
 
 .participantes__img:hover {
   filter: grayscale(0);
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  width: 700px;
+  border-radius: 15px;
+}
+
+.carousel-item {
+  width: 700px;
+  height: 500px;
 }
 /*# sourceMappingURL=estilos.css.map */

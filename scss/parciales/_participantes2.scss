@@ -52,3 +52,14 @@
     filter: grayscale(0);
 }
 
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 700px;
+    border-radius: 15px;
+}
+.carousel-item{
+    width: 700px;
+    height: 500px;
+}
