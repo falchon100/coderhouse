@@ -8,6 +8,7 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position:bottom ;
 min-height: 200px;
+padding: 1em;
 background: rgb(14,68,93);
 background:$color-principal;
 @include generarflex(row,space-between,center);
