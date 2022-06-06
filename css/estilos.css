@@ -194,14 +194,10 @@ header a {
 }
 
 .sec__texto {
-  /*         position: absolute; */
   color: white;
   font-size: 150px;
   min-height: 100px;
   z-index: 10;
-  /*         top: 40%;
-        left: 50%; */
-  /*         transform: translate(-50%,-50%); */
   text-align: center;
   font-family: "FORTQUINSY";
 }
@@ -578,11 +574,26 @@ dl, ol, ul {
   height: 350px;
   object-fit: cover;
   transition: all 0.5s;
+  overflow: hidden;
 }
 
-.participantes__img2:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+/* .participantes__img2:hover{
+    -webkit-transform:$zoom;transform:$zoom;
+}
+ */
+/*  img.imagenes.participantes__img2:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+ } */
+/* 
+ .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;} */
+.contenedor:hover .participantes__img2 {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.contenedor {
   overflow: hidden;
 }
 
@@ -766,7 +777,7 @@ img .carruselito {
 }
 
 .participantes2 {
-  width: 40%;
+  width: 49%;
 }
 
 .participantes__titulo_principal {
@@ -815,6 +826,7 @@ img .carruselito {
   #italo__titulo {
     height: 400px;
     margin: 0 auto;
+    width: 90%;
   }
   .galeria {
     display: grid;

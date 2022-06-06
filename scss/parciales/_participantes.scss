@@ -171,9 +171,22 @@ width: 100%;
 height: 350px;
 object-fit: cover;
 transition: all 0.5s;
+overflow: hidden;
 }
 
-.participantes__img2:hover{
+/* .participantes__img2:hover{
     -webkit-transform:$zoom;transform:$zoom;
-    overflow:hidden;
+}
+ */
+
+/*  img.imagenes.participantes__img2:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+ } */
+/* 
+ .contenedor:hover .imagen {-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;} */
+
+.contenedor:hover .participantes__img2{-webkit-transform:scale(1.3);transform:scale(1.3)}
+.contenedor {overflow: hidden;
 }
