@@ -12,28 +12,30 @@
 }
 
 .participantes2__h1{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 100px;
     padding-top: 20px;
-    margin: 20px auto;
-    font-family: FORTQUINSY;
-    text-shadow: 10px 10px 10px black;
+    margin: 10px auto;
+    font-family: 'Russo One', sans-serif;
+
 }
 
 .participantes2__h2{
-    color: white;
+    color: black;
     text-align: center;
-    margin: 20px auto;
-    font-family: 'FontAwesome';
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
 
 }
 
 .participantes2__p{
-    color: white;
+    color: black;
     text-align: justify;
     margin: 20px 10px;
-    font-family: 'FontAwesome';
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
 }
 
 .participantes__img{
@@ -52,14 +54,96 @@
     filter: grayscale(0);
 }
 
+.carruselito{
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
+}
 
-.carousel-item img {
-    height: 500px;
-    object-fit: cover;
-    width: 700px;
-    border-radius: 15px;
+img .carruselito{
+    width: 100%;
+    height: 100%;
+
 }
-.carousel-item{
-    width: 700px;
-    height: 500px;
+
+.kelly{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly  ;
+    border: 1px solid;
+    align-items: center;
 }
+
+.italo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    border: 1px solid;
+    align-items: center;
+}
+
+.john{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid;
+    align-items: center;
+}
+
+.kanoa{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    border: 1px solid;
+    align-items: center;
+}
+#kelly__titulo{
+    width: 49%;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px white inset;
+border: 0;
+margin: 1%;
+
+}
+
+#italo__titulo{
+    width: 49%;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 8px white inset;
+border: 0;
+margin: 1%;
+}
+
+#john__titulo{
+    width: 49%;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px white inset;
+border: 0;
+margin: 1%;
+}
+
+#kanoa__titulo{
+    width: 49%;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 8px white inset;
+border: 0;
+margin: 1%;
+background-position-x: right;
+
+}
+.participantes2{
+    width: 40%;
+}
+
+.participantes__titulo_principal{
+    font-size: $step-6;
+}
+

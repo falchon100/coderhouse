@@ -104,7 +104,7 @@ filter: grayscale(0);
 background-image: url(../img/john_titulo.png);
 background-size: cover;
 background-repeat: no-repeat;
-background-position: 60%;
+/* background-position: 60%; */
 font-family: FORTQUINSY;
 height: map-get($estilos,height);
 text-shadow: map-get($estilos,text-shadow);
