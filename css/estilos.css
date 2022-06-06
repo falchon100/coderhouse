@@ -740,7 +740,7 @@ img .carruselito {
 }
 
 #kelly__titulo {
-  width: 49%;
+  width: 100%;
   height: 700px;
   border-radius: 10px;
   box-shadow: 0 0 8px 8px white inset;
@@ -782,6 +782,41 @@ img .carruselito {
 
 .participantes__titulo_principal {
   font-size: clamp(3.8rem, calc(3.100rem + 2.80vw), 4.8rem);
+}
+
+.par__img {
+  border-radius: 10px;
+  filter: grayscale(1);
+  box-shadow: 0 0 15px #ddd;
+}
+
+.par__img:hover {
+  filter: grayscale(0);
+}
+
+.part__h2 {
+  color: black;
+  font-family: 'Russo One', sans-serif;
+}
+
+.margenes2 {
+  background-image: url(../img/participantes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.part__h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.part__h {
+  font-family: 'Raleway', sans-serif;
+}
+
+.par__p {
+  font-family: 'Poiret One', cursive;
 }
 
 @media screen and (max-width: 1023px) {
