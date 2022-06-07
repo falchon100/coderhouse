@@ -173,6 +173,8 @@ background-position-x: right;
 .part__h1{
     font-size: 60px;
     color: white;
+    z-index: 2;
+    font-family: fantasy;
 }
 
 .part__h{
@@ -189,4 +191,24 @@ background-position-x: right;
     height: 400px;
     object-fit: cover;
     border-radius: 15px;
+}
+
+.participantes__hero{
+    height: 80vh;
+    position: relative;
+
+}
+
+.participantes__hero::before{
+    content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.3)
+}
+
+.participantes__hero button{
+    z-index: 2;
 }
