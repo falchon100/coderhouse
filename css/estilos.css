@@ -831,6 +831,7 @@ img .carruselito {
 .participantes__hero {
   height: 80vh;
   position: relative;
+  background-attachment: fixed;
 }
 
 .participantes__hero::before {
