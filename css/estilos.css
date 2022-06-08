@@ -875,7 +875,8 @@ img .carruselito {
   height: 80vh;
   position: relative;
   background-attachment: fixed;
-  background-color: red;
+  /*   background-color: red; */
+  background-image: url(/coderhouse/img/fondogaleria.jpg);
 }
 
 .galeria__hero::before {
@@ -889,7 +890,7 @@ img .carruselito {
 }
 
 .z-index {
-  z-index: 1;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1023px) {
