@@ -867,8 +867,29 @@ img .carruselito {
 
 .participantes__hero__flecha2 {
   font-size: 50px;
-  color: #0e445d;
+  color: black;
   display: block;
+}
+
+.galeria__hero {
+  height: 80vh;
+  position: relative;
+  background-attachment: fixed;
+  background-color: red;
+}
+
+.galeria__hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.z-index {
+  z-index: 1;
 }
 
 @media screen and (max-width: 1023px) {
