@@ -446,7 +446,7 @@ dl, ol, ul {
   text-align: center;
   background-color: white;
   font-size: 8em;
-  text-shadow: 5px 5px 5px grey;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .participantes__texto {
@@ -813,10 +813,10 @@ img .carruselito {
 }
 
 .part__h1 {
-  font-size: 60px;
+  font-size: 5rem;
   color: white;
   z-index: 2;
-  font-family: fantasy;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .part__h {
@@ -972,6 +972,9 @@ img .carruselito {
 /* VISTA MOBILEEEEEEEEE */
 /* VISTA MOBILEEEEEEEEE */
 @media screen and (max-width: 600px) {
+  .part__h1 {
+    font-size: 2.5rem;
+  }
   #kelly__titulo {
     filter: grayscale(0);
   }
