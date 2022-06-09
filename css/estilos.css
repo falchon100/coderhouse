@@ -846,7 +846,7 @@ img .carruselito {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, black 0%, rgba(0, 212, 255, 0) 100%);
 }
 
 .participantes__hero button {
@@ -886,7 +886,9 @@ img .carruselito {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 212, 255, 0) 100%);
 }
 
 .z-index {
