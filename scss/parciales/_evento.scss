@@ -31,7 +31,7 @@
 
         &__video{
             width: 100%;
-            margin: 10px 0;
+            height: 100%;
         }
         
     }
@@ -41,3 +41,55 @@
     }
     
     
+
+    .se__1 h1 {
+        color: white;
+        font-size: 80px;
+        z-index: 2;
+        font-family:Grape Nuts;
+    }
+
+    .se__1{
+ background: url("http://s3.amazonaws.com/darkroom-cdn/2017/02/AFP-Getty_TOPSHOT-US-HAWAII-SURFING-PIPELINE.jpg") center  ;
+background-size: cover;
+height: 500px;
+position: relative;
+
+    }
+.se__1::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    opacity: 0.3;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+    .se__2{ 
+        height: 500px;
+        text-align: center;
+    }
+
+    .se__2 h2{
+        color: #009490;
+    }
+
+    .se__3{
+        background-color: #03989E;
+        color: white;
+    height: 500px;
+    }
+
+    .se__3 h3{
+        font-size: 80px;
+    }
+    .se__4{
+        height: 500px;
+    }
+
+    .youtube{
+        text-decoration: none;   
+    color: red; }
