@@ -8,7 +8,7 @@ form{
     background-size: cover;
     font-family:'Mukta';
     border-radius: 15px;
-    color: black;
+    color: white;
 
 
 
@@ -19,7 +19,7 @@ form{
 
         .votacion__hero{
     position: relative;
-    background-image: url("/coderhouse/img/winner2.jpg");
+    background: url("/coderhouse/img/winner2.jpg")center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -33,19 +33,34 @@ form{
             right: 0;
             bottom: 0;
             left: 0;
-        background-color: pink;
-        opacity: 0.5;
-/*             background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%);
- */
-}
+            background: rgb(0,0,0);
+/* background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%); */
+/*         background-color: pink; */
+        opacity: 0.6;
 
+}
+    form{
+        background-color: #0D6EFD;
+    }
         
         .formu{
-            color: white;
             z-index: 2;
+            color: white;
+            text-shadow: 1px 1px 2px black;;
+
         }
 
         .formu1{
         height: auto;
         }
+
+
+h1.votacion{
+font-size: 70px;
+color: white;
+font-family: 'Squada One', cursive;
+}
+
+.formu h2{
+    font-family: 'Flamenco', cursive;;
+}

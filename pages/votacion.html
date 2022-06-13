@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
     <meta name="keywords" content="votacion,surfers,ganador,Italo,Kelly,John,playa,Kanoa,final">
     <meta name="description" content="Pagina realizada para evento final de surf del mundo con los ultimos 4 finalistas">
@@ -34,40 +36,56 @@
         <a href="#lateral" class=" header__hamb"><span id="hamb"><i class="fa-solid fa-bars"></i></span></a>
     </header>
 <main> 
-<div class="margenes">
+<div class="container-fluid votacion__hero  pb-5">
+    <div class="container margenes formu ">
+        <div class="row ">
+            <div class="formu col-12 col-lg-6 d-flex flex-column text-center mt-5 justify-content-center ">
+                <h1 class="votacion">¿Quien ganara el torneo?</h1>
+                <hr> 
+                <h2>La final en <b>Pipeline</b> es la instancia mas esperada del año</h2>
+                <h3 class="mt-5">dejanos tu comentario quien te gustaria que gane</h3>
 
-<form  action="" method="post">
-    <div>
-        <h1 id="votacion">¿Quien ganara el torneo?</h1>
+                <button class="btn btn-primary mt-5">contanos</button>
+            </div> 
+            <div class="col-12 col-lg-6 dos formu formu1 mt-5 ">
+            <form  action="" method="post">
+                        <div>
+                            <label class="form-label" for="nombre"><b>Nombre:</b></label>
+                            <input class=" form-control" type="text" name="" id="nombre" placeholder="">
+                        </div>
+                            <hr>
+                        <div> 
+                            <label class="form-label" for="apellido"><b>Apellido:</b></label>
+                            <input class="form-control"  type="text" name="" id="apellido" placeholder= "">
+                        </div>
+                            <hr>
+                        <div>
+                            <label class="form-label" for="email"><b>Correo:</b></label>
+                            <input class="form-control"  type="email" name="" id="email" placeholder="">
+                        </div>
+                            <hr>
+                <div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Elige una opccion</option>
+                            <option value="1">Kelly Slater</option>
+                            <option value="2">Italo Ferreira</option>
+                            <option value="3">John John Florence</option>
+                            <option value="4">Kanoa Igarashi</option>
+                        </select>
+                            <hr>
+                        <div>
+                            <label class="form-label"  for="comentario"><b>¿Comentanos por que?</b></label>
+                            <textarea class="form-control" name="" id="comentario" cols="15" rows="6"></textarea>
+                        </div>
+                </div>
+                
+                        <button class="mt-3 btn  btn-light"><b>Enviar</b></button>
+            </form>
+            </div>
+        </div>    
+    </div>
 
-        <label class="votacion__texto" for="nombre">ingresa su nombre</label>
-        <input class="votacion__input" type="text" name="" id="nombre" placeholder="nombre">
-    </div>
-    <div>
-        <label class="votacion__texto" for="apellido">ingresa su apellido</label>
-        <input class="votacion__input"  type="text" name="" id="apellido" placeholder= "apellido">
-    </div>
-    <div>
-        <label class="votacion__texto" for="email">Ingresa tu correo</label>
-        <input class="votacion__input"  type="email" name="" id="email" placeholder="correo">
-    </div>
-    
-    <div>
-    <label class="votacion__texto" for="participantes">escoge tu candidato</label>
-    <select name="participantes" id="participantes">
-        <option value="Kelly Slater">Kelly Slater</option>
-        <option value="Italo Ferreira">Italo Ferreira</option>
-        <option value="John John Florence">John John Florence</option>
-        <option value="Kanoa Igarashi">Kanoa Igarashi</option>
-    </select>
-    <div>
-        <label class="votacion__texto"  for="comentario">Comentanos por que?</label>
-        <textarea name="" id="comentario" cols="30" rows="10"></textarea>
-    </div>
-    </div>
-    <button class="boton">Enviar</button>
-</form>
-
+</div>
 
 
     
