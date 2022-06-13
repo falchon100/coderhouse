@@ -606,7 +606,7 @@ dl, ol, ul {
 }
 
 .evento {
-  color: white;
+  /*     color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -636,6 +636,7 @@ dl, ol, ul {
   background-image: url(../img/bg-pattern-desktop_1650404058.png);
   background-position: bottom;
   background-size: contain;
+  color: white;
 }
 
 .evento__video {

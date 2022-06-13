@@ -1,6 +1,6 @@
 
 .evento{
-    color: white;
+/*     color: white; */
     @include generarflex(column,center,center);
 
     &__titulo{
@@ -26,6 +26,7 @@
         background-image: url(../img/bg-pattern-desktop_1650404058.png);
         background-position: bottom;
         background-size: contain;
+        color: white;
         }
 
         &__video{
