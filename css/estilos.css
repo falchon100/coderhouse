@@ -1115,8 +1115,7 @@ hr {
   }
   .header__cerrar {
     display: block;
-    background: linear-gradient(180deg, #0e445d 0%, #0d5474 8%, #0d5474 88%, #0e445d 100%);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Grape Nuts';
     font-size: 25px;
     border-radius: 15px;
   }
