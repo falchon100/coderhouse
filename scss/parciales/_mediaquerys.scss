@@ -210,7 +210,9 @@
         grid-template-rows: repeat(6,1fr);
         }
     
-    
+        .evento__titulo{
+            font-size: 4.5em;
+            }
     }
     
     h1.margenes.participantes__titulo_principal{
@@ -227,9 +229,7 @@
     font-size: 4em;
     }
     
-    .evento__titulo{
-    font-size: 6em;
-    }
+  
     
     h1#votacion{
     font-size: 65px;

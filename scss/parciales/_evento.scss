@@ -4,9 +4,10 @@
     @include generarflex(column,center,center);
 
     &__titulo{
-        font-size: 140px;
-        padding-top: 80px;
+        font-size: 100px;
+        padding-top: 100px;
         text-shadow: 5px 5px 5px black;
+        font-family: 'Alfa Slab One', cursive;;
         width: 100%;
         min-height: 400px;
     text-align: center;
@@ -71,20 +72,26 @@ position: relative;
     .se__2{ 
         height: 500px;
         text-align: center;
+    
     }
 
     .se__2 h2{
         color: #009490;
+        font-family:'Mukta';
     }
 
     .se__3{
-        background-color: #03989E;
+/*         background-color: #03989E; */
+background-image:url(../img/wave-haikei.svg);
+background-size: cover;
         color: white;
     height: 500px;
     }
 
     .se__3 h3{
         font-size: 80px;
+        text-align: center;
+        font-family: 'Alfa Slab One', cursive;;
     }
     .se__4{
         height: 500px;
